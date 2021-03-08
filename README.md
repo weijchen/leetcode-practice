@@ -1,8 +1,7 @@
 # LeetCode Practice
 I'll update coding practice here (leetcode, hackerrank)
 
-| LeetCode
-
+## LeetCode
 3/8
 1. (12) Integer to Roman - Medium
 
@@ -42,8 +41,7 @@ I'll update coding practice here (leetcode, hackerrank)
 18. (111) Minimum Depth of Binary Tree - Easy
 19. (113) Path Sum II - Medium
 
-| HackerRank
-
+## HackerRank
 
 ## Reference URL
 * Leetcode (https://leetcode.com/)
