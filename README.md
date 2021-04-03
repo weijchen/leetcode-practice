@@ -1,10 +1,25 @@
 # LeetCode Practice
-I'll update coding practice here (leetcode, hackerrank)
+I'll update coding practice here (leetcode (L), hackerrank (H), algoexpert (A))
 
-## LeetCode
-3/8
-1. (12) Integer to Roman - Medium
-2. (17) Letter Combinations of a Phone Number - Medium
+4/3
+1. (A) Longest Palindromic Substring - Medium
+2. (A) Group Anagrams - Medium
+
+2021/3
+1. (A) Linked List Construction - Medium
+2. (A) Remove Kth Node From End - Medium
+3. (A) Sum of Linked Lists - Medium
+4. (A) Three Number Sort - Medium
+5. (A) Quick Sort - Medium
+6. (A) Binary Tree Diameter - Medium
+7. (A) Find Successor - Medium
+8. (A) Breadth-first Search - Medium
+9. (A) BST Construction - Medium
+10. (A) Min Height BST - Medium
+11. (A) Smallest Difference - Medium
+12. (A) Single Cycle Check - Medium
+13. (12) Integer to Roman - Medium
+14. (17) Letter Combinations of a Phone Number - Medium
 
 2021/2
 1. (543) Diameter of Binary Tree - Easy
@@ -47,3 +62,4 @@ I'll update coding practice here (leetcode, hackerrank)
 ## Reference URL
 * Leetcode (https://leetcode.com/)
 * Hackerrank (https://www.hackerrank.com/)
+ 
