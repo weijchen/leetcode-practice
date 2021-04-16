@@ -5,11 +5,12 @@ Group Anagrams
 """
 
 
+# Time: O(w*n*log(n)) - w is the number of words and n is the length of the longest word | Space: O(wn)
 def groupAnagrams(words):
     # Write your code here.
     ht = {}
-    for i, word in enumerate(words):
-        k = ''.join(sorted(word))
+    for i, word in enumerate(words):  # w
+        k = ''.join(sorted(word))  # nlog(n)
         if k in ht.keys():
             ht[k].append(word)
         else:

@@ -1,9 +1,38 @@
 # LeetCode Practice
 I'll update coding practice here (leetcode (L), hackerrank (H), algoexpert (A))
 
+4/16
+1. (59) Spiral Matrix II - Medium
+2. (66) Plus One - Easy
+
+4/15
+1. (58) Length of Last Word - Easy
+
+4/12
+1. (54) Spiral Matrix - Medium
+2. (56) Merge Intervals - Medium
+
+4/11
+1. (33) Search in Rotated Sorted Array - Medium
+2. (41) First Missing Positive - Hard
+3. (43) Multiply Strings - Medium
+4. (46) Permutations - Medium
+5. (48) Rotate Image - Medium
+
+4/10
+1. (14) Longest Common Prefix - Easy
+2. (16) 3Sum Closet - Medium
+3. (26) Remove Duplicates from Sorted Array - Easy
+4. (27) Remove Element - Easy
+5. (28) IMplement strStr() - Easy
+6. (34) Find First and Last Position of Element in Sorted Array - Medium
+
 4/3
 1. (A) Longest Palindromic Substring - Medium
-2. (A) Group Anagrams - Medium
+2. (A, 49) Group Anagrams - Medium
+3. (15) 3Sum - Medium
+4. (82) Remove Duplicates from Sorted List II - Medium
+5. (160) Intersection of Two Linked Lists - Easy
 
 2021/3
 1. (A) Linked List Construction - Medium
