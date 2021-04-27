@@ -6,6 +6,8 @@
 """
 
 
+# Approach 1: Two Pointers
+# Time: O(N^2) | Space: O(logN) to O(N), depending on the implementation of the sorting algorithm
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         dist = float('inf')

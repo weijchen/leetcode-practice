@@ -6,23 +6,21 @@
 """
 
 
+# Approach 1: Backtracking
 # Time: O(N) | Space: O(N!) -> one has to keep N! solutions
 class Solution:
-    def __init__(self):
-        self.ans = []
-
     def permute(self, nums: List[int]) -> List[List[int]]:
-        self.helper(nums)
-        return self.ans
+        ans = []
+        self.helper(nums, ans)
+        return ans
 
-    def helper(self, arr, path=[]):
+    def helper(self, arr, ans, path=[]):
+        # exist condition
+        if len(arr) == 0:
+            ans.append(path)
+
+        # iterate current dimension
         for idx in range(len(arr)):
-            curNum = arr[idx]
             remain = arr[:idx] + arr[idx + 1:]
-            tmpPath = [_ for _ in path]
-            tmpPath.append(curNum)
-
-            if len(remain) > 0:
-                self.helper(remain, tmpPath)
-            else:
-                self.ans.append(tmpPath)
+            nextPath = path + [arr[idx]]
+            self.helper(remain, ans, nextPath)

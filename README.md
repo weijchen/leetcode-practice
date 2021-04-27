@@ -1,6 +1,35 @@
 # LeetCode Practice
 I'll update coding practice here (leetcode (L), hackerrank (H), algoexpert (A))
 
+4/27
+1. (250) Count Univalue Subtrees - Medium
+2. (105) Construct Binary Tree from Preorder and Inorder Traversal - Medium
+3. (106) Construct Binary Tree from Inorder and Postorder Traversal - Medium
+4. (107) Binary Tree Level Order Traversal II - Medium
+5. (108) Convert Sorted Array to Binary Search Tree -
+
+4/25
+1. (103) Binary Tree Zigzag Level Order Traversal - Medium
+
+4/24
+1. (102) Binary Tree Level Order Traversal - Medium
+
+4/20
+1. (78) Subsets - Medium
+2. (22) Parentheses - Medium
+
+4/19
+1. (39) Combination Sum - Medium
+2. (40) Combination Sum II - Medium
+
+4/18
+1. (67) Add Binary - Easy
+2. (69) Sqrt(X) - Easy
+3. (73) Set Matrix Zeroes - Medium
+4. (74) Search a 2D Matrix - Medium
+5. (75) Sort Colors - Medium
+6. (77) Combinations - Medium
+
 4/16
 1. (59) Spiral Matrix II - Medium
 2. (66) Plus One - Easy

@@ -6,13 +6,9 @@
 """
 
 
-"""
-Solution 1: BFS
-Time: O(3^N * 4^M) -> where N is the number of digits in the input that maps to 3 letters, and M is the number of digits in the input that maps to 4 letters
-Space: O(3^N * 4^M)
-"""
-
-
+# Approach 1: BFS, Backtracking
+# Time: O(3^N * 4^M) -> where N is the number of digits in the input that maps to 3 letters, and M is the number of digits in the input that /maps to 4 letters
+# Space: O(3^N * 4^M)
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         digitMap = {'2': ['a', 'b', 'c'],

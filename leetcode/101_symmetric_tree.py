@@ -14,12 +14,16 @@ class TreeNode:
         self.right = right
 
 
+# Approach 1: Traverse + Recursion
+# Time: O(N) | Space: O(logN), # of recursion stacks
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         return self.helper(root, root)
-    
+
     def helper(self, p: TreeNode, q: TreeNode) -> bool:
-        if not p and not q: return True
-        if not p or not q: return False
-        
+        if not p and not q:
+            return True
+        if not p or not q:
+            return False
+
         return p.val == q.val and self.helper(p.left, q.right) and self.helper(p.right, q.left)

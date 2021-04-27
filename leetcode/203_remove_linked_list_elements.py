@@ -13,6 +13,7 @@ class ListNode:
         self.next = next
 
 
+# Approach 1: sentinel node + two pointers + linked list remove
 class Solution:
     def removeElements(self, head: ListNode, val: int) -> ListNode:
         dummy = ListNode(0)
