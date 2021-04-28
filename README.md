@@ -1,6 +1,14 @@
 # LeetCode Practice
 I'll update coding practice here (leetcode (L), hackerrank (H), algoexpert (A))
 
+
+4/28
+1. (114) Flatten Binary Tree to Linked List - Medium
+2. (116) Populating Next Right Pointers in Each Node - Medium
+3. (117) Populating Next Right Pointers in Each Node II - Medium
+4. (118) Pascal's Triangle - Easy
+5. (119) Pascal's Triangle II - Easy
+
 4/27
 1. (250) Count Univalue Subtrees - Medium
 2. (105) Construct Binary Tree from Preorder and Inorder Traversal - Medium
