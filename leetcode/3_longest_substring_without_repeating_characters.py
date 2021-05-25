@@ -7,32 +7,30 @@
 
 
 # Approach 1: Hash Table + Two Pointers
-# Time: O(2n) = O(n)
-# Space: O(m)
+# Time: O(2n) = O(n) | Space: O(m)
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        if len(s) == 0: return 0
-        ret = 0
-        l = len(s)
+        ans = 0
+        if len(s) == 0:
+            return ans
+        s_length = len(s)
         p1 = p2 = 0
-        
-        while p2 <= l - 1:
-            p2 += 1
-            curSubString = s[p1: p2]
-            
-            if self.checkDuplicate(curSubString):
+
+        while p2 <= s_length:
+            toCheck = s[p1: p2]
+            if self.checkRepeat(toCheck):
+                toCheck_length = len(toCheck)
+                ans = max(ans, toCheck_length)
+                p2 += 1
+            else:
                 p1 += 1
-                ret = max(len(curSubString) - 1, ret)
+        return ans
+
+    def checkRepeat(self, string) -> bool:
+        dic = dict()
+        for c in string:
+            if c in dic.keys():
+                return False
             else:
-                ret = max(len(curSubString), ret)
-                
-        return ret
-            
-    def checkDuplicate(self, s: str) -> bool:
-        ret = {}
-        for _ in s:
-            if _ in ret.keys():
-                return True
-            else:
-                ret[_] = True
-        return False
+                dic[c] = True
+        return True

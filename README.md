@@ -1,75 +1,85 @@
 # LeetCode Practice
 I'll update coding practice here (leetcode (L), hackerrank (H), algoexpert (A))
 
+5/18
+1. (5) Longest Palindromic Substring - Medium
+2. (953) Verifying an Alien Dictionary - Easy
 
-4/28
-1. (114) Flatten Binary Tree to Linked List - Medium
-2. (116) Populating Next Right Pointers in Each Node - Medium
-3. (117) Populating Next Right Pointers in Each Node II - Medium
-4. (118) Pascal's Triangle - Easy
-5. (119) Pascal's Triangle II - Easy
+5/17
+1. (199) Binary Tree Right Side View - Medium
+2. (200) Number of Islands - Medium
+3. (202) Happy Number - Easy
 
-4/27
-1. (250) Count Univalue Subtrees - Medium
-2. (105) Construct Binary Tree from Preorder and Inorder Traversal - Medium
-3. (106) Construct Binary Tree from Inorder and Postorder Traversal - Medium
-4. (107) Binary Tree Level Order Traversal II - Medium
-5. (108) Convert Sorted Array to Binary Search Tree -
+5/16
+1. (187) Repeated DNA Sequences - Medium
+2. (189) Rotate Array - Medium
 
-4/25
-1. (103) Binary Tree Zigzag Level Order Traversal - Medium
+5/8
+1. (169) Majority Element - Easy
+2. (171) Excel Sheet Column Number - Easy
+3. (172) Factorial Trailing Zeroes - Easy
+4. (173) Binary Search Tree Iterator - Medium
 
-4/24
-1. (102) Binary Tree Level Order Traversal - Medium
+5/6
+1. (162) Find Peak Element - Medium
+2. (164) Maximum Gap - Hard
 
-4/20
-1. (78) Subsets - Medium
-2. (22) Parentheses - Medium
+5/5
+1. (168) Excel Sheet Column Title - Easy
+2. (147) Insertion Sort List - Medium
+3. (150) Evaluate Reverse Polish Notation - Medium
+4. (151) Reverse Words in a String - Medium
+5. (155) Min Stack - Easy
 
-4/19
-1. (39) Combination Sum - Medium
-2. (40) Combination Sum II - Medium
+5/4
+1. (122) Best Time To Buy and Sell Stock II - Easy
+2. (129) Sum Root to Leaf Numbers - Medium
 
-4/18
-1. (67) Add Binary - Easy
-2. (69) Sqrt(X) - Easy
-3. (73) Set Matrix Zeroes - Medium
-4. (74) Search a 2D Matrix - Medium
-5. (75) Sort Colors - Medium
-6. (77) Combinations - Medium
-
-4/16
-1. (59) Spiral Matrix II - Medium
-2. (66) Plus One - Easy
-
-4/15
-1. (58) Length of Last Word - Easy
-
-4/12
-1. (54) Spiral Matrix - Medium
-2. (56) Merge Intervals - Medium
-
-4/11
-1. (33) Search in Rotated Sorted Array - Medium
-2. (41) First Missing Positive - Hard
-3. (43) Multiply Strings - Medium
-4. (46) Permutations - Medium
-5. (48) Rotate Image - Medium
-
-4/10
-1. (14) Longest Common Prefix - Easy
-2. (16) 3Sum Closet - Medium
-3. (26) Remove Duplicates from Sorted Array - Easy
-4. (27) Remove Element - Easy
-5. (28) IMplement strStr() - Easy
-6. (34) Find First and Last Position of Element in Sorted Array - Medium
-
-4/3
-1. (A) Longest Palindromic Substring - Medium
-2. (A, 49) Group Anagrams - Medium
-3. (15) 3Sum - Medium
-4. (82) Remove Duplicates from Sorted List II - Medium
-5. (160) Intersection of Two Linked Lists - Easy
+2021/4
+1. (121) Best Time to Buy and Sell Stock - Easy
+2. (114) Flatten Binary Tree to Linked List - Medium
+3. (116) Populating Next Right Pointers in Each Node - Medium
+4. (117) Populating Next Right Pointers in Each Node II - Medium
+5. (118) Pascal's Triangle - Easy
+6. (119) Pascal's Triangle II - Easy
+7. (250) Count Univalue Subtrees - Medium
+8. (105) Construct Binary Tree from Preorder and Inorder Traversal - Medium
+9. (106) Construct Binary Tree from Inorder and Postorder Traversal - Medium
+10. (107) Binary Tree Level Order Traversal II - Medium
+11. (108) Convert Sorted Array to Binary Search Tree -
+12. (103) Binary Tree Zigzag Level Order Traversal - Medium
+13. (102) Binary Tree Level Order Traversal - Medium
+14. (78) Subsets - Medium
+15. (22) Parentheses - Medium
+16. (39) Combination Sum - Medium
+17. (40) Combination Sum II - Medium
+18. (67) Add Binary - Easy
+19. (69) Sqrt(X) - Easy
+20. (73) Set Matrix Zeroes - Medium
+21. (74) Search a 2D Matrix - Medium
+22. (75) Sort Colors - Medium
+23. (77) Combinations - Medium
+24. (59) Spiral Matrix II - Medium
+25. (66) Plus One - Easy
+26. (58) Length of Last Word - Easy
+27. (54) Spiral Matrix - Medium
+28. (56) Merge Intervals - Medium
+29. (33) Search in Rotated Sorted Array - Medium
+30. (41) First Missing Positive - Hard
+31. (43) Multiply Strings - Medium
+32. (46) Permutations - Medium
+33. (48) Rotate Image - Medium
+34. (14) Longest Common Prefix - Easy
+35. (16) 3Sum Closet - Medium
+36. (26) Remove Duplicates from Sorted Array - Easy
+37. (27) Remove Element - Easy
+38. (28) IMplement strStr() - Easy
+39. (34) Find First and Last Position of Element in Sorted Array - Medium
+40. (A) Longest Palindromic Substring - Medium
+41. (A, 49) Group Anagrams - Medium
+42. (15) 3Sum - Medium
+43. (82) Remove Duplicates from Sorted List II - Medium
+44. (160) Intersection of Two Linked Lists - Easy
 
 2021/3
 1. (A) Linked List Construction - Medium

@@ -6,8 +6,8 @@
 """
 
 
-# Time: O(log(x))
-# Space: O(1)
+# Reverse half of the number
+# Time: O(log(x)) | Space: O(1)
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:
@@ -21,3 +21,18 @@ class Solution:
             revInt += remain
 
         return x-revInt == 0
+
+
+# Solution 2: array check palindrome
+# Time: O(N) | Space: O(1)
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0:
+            return False
+
+        x_str, x_length = str(x), len(str(x))
+
+        for i in range(x_length // 2 + 1):
+            if x_str[i] != x_str[x_length - i - 1]:
+                return False
+        return True
