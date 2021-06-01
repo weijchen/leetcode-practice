@@ -31,3 +31,32 @@ class Solution:
                 newTarget = target - arr[idx]
                 newStart = idx + 1
                 self.helper(arr, newTarget, newStart, ans, newComb)
+
+
+# Practice 1
+class Solution:
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+        candidates.sort()
+
+        ans = []
+
+        def backtracking(nums, start, remaining, comb):
+            if remaining == 0:
+                ans.append(comb[:])
+                return
+
+            for idx in range(start, len(nums)):
+                if idx > start and nums[idx] == nums[idx-1]:
+                    continue
+
+                if nums[idx] > target:
+                    break
+
+                if remaining >= nums[idx]:
+                    comb.append(nums[idx])
+                    backtracking(nums, idx+1, remaining - nums[idx], comb)
+                    comb.pop()
+
+        if candidates:
+            backtracking(candidates, 0, target, [])
+        return ans

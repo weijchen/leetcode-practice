@@ -1,9 +1,24 @@
 # LeetCode Practice
-I'll update coding practice here (leetcode (L), hackerrank (H), algoexpert (A))
+* leetcode (L), hackerrank (H), algoexpert (A)
+
+6/1
+1. (70) Climbing Stairs - Easy
+2. (746) Min Cost Climbing Stairs - Easy
+3. (1137) N-th Tribonacci Number - Easy
+4. (303) Range Sum Query - Immutable - Easy
+5. (1218) Longest Arithmetic Subsequence of Given Difference - Medium
+
+5/31
+1. (90) Subsets II - Medium
+2. (216) Combination Sum III - Medium
+3. (47) Permutation II - Medium
+
+5/28
+1. (238) Product of Array Except Self - Medium
 
 5/18
 1. (5) Longest Palindromic Substring - Medium
-2. (953) Verifying an Alien Dictionary - Easy
+2. (953) Verifying an Alien Dictionary - Easy$$
 
 5/17
 1. (199) Binary Tree Right Side View - Medium

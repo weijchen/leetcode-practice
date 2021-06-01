@@ -41,3 +41,40 @@ class Solution:
                 newComb = comb + [arr[idx]]
                 newTarget = target - arr[idx]
                 self.helper(arr, ans, idx, newTarget, newComb)
+
+
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+
+        def backtracking(nums, limit_idx, cur):
+            for idx, num in enumerate(nums):
+                if idx >= limit_idx:
+                    newCur = cur + [num]
+                    if sum(newCur) == target:
+                        ans.append(newCur)
+                    elif sum(newCur) < target:
+                        backtracking(nums, idx, newCur)
+
+        ans = []
+        if candidates:
+            backtracking(candidates, 0, [])
+        return ans
+
+
+# Practice 1
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        def backtracking(nums, limit_idx, cur, remaining):
+            if sum(cur) == target:
+                ans.append(cur[:])  # make a shallow copy === list.copy()
+                return
+            for idx in range(limit_idx, len(nums)):
+                if nums[idx] <= remaining:
+                    cur.append(nums[idx])
+                    backtracking(nums, idx, cur, remaining - nums[idx])
+                    cur.pop()
+
+        ans = []
+        if candidates:
+            backtracking(candidates, 0, [], target)
+        return ans

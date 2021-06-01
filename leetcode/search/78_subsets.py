@@ -37,3 +37,21 @@ class Solution:
             output.append([nums[j] for j in range(n) if bitmask[j] == '1'])
 
         return output
+
+
+# Practice 1
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        ans = []
+
+        def backtracking(start, depth, comb):
+            ans.append(comb[:])
+
+            for idx in range(start, len(nums)):
+                comb.append(nums[idx])
+                backtracking(idx + 1, depth + 1, comb)
+                comb.pop()
+
+        backtracking(0, 0, [])
+
+        return ans

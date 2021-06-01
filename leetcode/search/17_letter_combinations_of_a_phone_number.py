@@ -6,7 +6,7 @@
 """
 
 
-# Approach 1: BFS, Backtracking
+# Approach 1: BFS
 # Time: O(3^N * 4^M) -> where N is the number of digits in the input that maps to 3 letters, and M is the number of digits in the input that /maps to 4 letters
 # Space: O(3^N * 4^M)
 class Solution:
@@ -41,13 +41,9 @@ class Solution:
         return curLevel
 
 
-"""
-Solution 2: DFS / backtracking
-Time: O(3^N * 4^M) -> where N is the number of digits in the input that maps to 3 letters, and M is the number of digits in the input that maps to 4 letters
-Space: O(3^N * 4^M)
-"""
-
-
+# Solution 2: DFS / backtracking
+# Time: O(3^N * 4^M) = O(4^M) -> where N is the number of digits in the input that maps to 3 letters, and M is the number of digits in the input that maps to 4 letters
+# Space: O(3^N * 4^M)
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         digitMap = {'2': ['a', 'b', 'c'],
@@ -72,3 +68,32 @@ class Solution:
             backtracking("", digits)
 
         return ret
+
+
+# Practice 1
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+        numToChar = {
+            '2': ['a', 'b', 'c'],
+            '3': ['d', 'e', 'f'],
+            '4': ['g', 'h', 'i'],
+            '5': ['j', 'k', 'l'],
+            '6': ['m', 'n', 'o'],
+            '7': ['p', 'q', 'r', 's'],
+            '8': ['t', 'u', 'v'],
+            '9': ['w', 'x', 'y', 'z'],
+        }
+
+        def backtracking(tmpStr, ind):
+            if len(digits) > ind:
+                selection = numToChar[digits[ind]]
+                for _ in selection:
+                    toPass = tmpStr + _
+                    backtracking(toPass, ind + 1)
+            else:
+                ans.append(tmpStr)
+
+        ans = []
+        if digits:
+            backtracking("", 0)
+        return ans
