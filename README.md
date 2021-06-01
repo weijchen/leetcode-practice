@@ -12,43 +12,27 @@
 1. (90) Subsets II - Medium
 2. (216) Combination Sum III - Medium
 3. (47) Permutation II - Medium
-
-5/28
-1. (238) Product of Array Except Self - Medium
-
-5/18
-1. (5) Longest Palindromic Substring - Medium
-2. (953) Verifying an Alien Dictionary - Easy$$
-
-5/17
-1. (199) Binary Tree Right Side View - Medium
-2. (200) Number of Islands - Medium
-3. (202) Happy Number - Easy
-
-5/16
-1. (187) Repeated DNA Sequences - Medium
-2. (189) Rotate Array - Medium
-
-5/8
-1. (169) Majority Element - Easy
-2. (171) Excel Sheet Column Number - Easy
-3. (172) Factorial Trailing Zeroes - Easy
-4. (173) Binary Search Tree Iterator - Medium
-
-5/6
-1. (162) Find Peak Element - Medium
-2. (164) Maximum Gap - Hard
-
-5/5
-1. (168) Excel Sheet Column Title - Easy
-2. (147) Insertion Sort List - Medium
-3. (150) Evaluate Reverse Polish Notation - Medium
-4. (151) Reverse Words in a String - Medium
-5. (155) Min Stack - Easy
-
-5/4
-1. (122) Best Time To Buy and Sell Stock II - Easy
-2. (129) Sum Root to Leaf Numbers - Medium
+4. (238) Product of Array Except Self - Medium
+5. (5) Longest Palindromic Substring - Medium
+6. (953) Verifying an Alien Dictionary - Easy$$
+7. (199) Binary Tree Right Side View - Medium
+8. (200) Number of Islands - Medium
+9. (202) Happy Number - Easy
+10. (187) Repeated DNA Sequences - Medium
+11. (189) Rotate Array - Medium
+12. (169) Majority Element - Easy
+13. (171) Excel Sheet Column Number - Easy
+14. (172) Factorial Trailing Zeroes - Easy
+15. (173) Binary Search Tree Iterator - Medium
+16. (162) Find Peak Element - Medium
+17. (164) Maximum Gap - Hard
+18. (168) Excel Sheet Column Title - Easy
+19. (147) Insertion Sort List - Medium
+20. (150) Evaluate Reverse Polish Notation - Medium
+21. (151) Reverse Words in a String - Medium
+22. (155) Min Stack - Easy
+23. (122) Best Time To Buy and Sell Stock II - Easy
+24. (129) Sum Root to Leaf Numbers - Medium
 
 2021/4
 1. (121) Best Time to Buy and Sell Stock - Easy
