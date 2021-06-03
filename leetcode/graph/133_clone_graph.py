@@ -1,0 +1,75 @@
+"""
+133. Clone Graph
+- Medium
+- DFS, BFS, Graph
+- Link: https://leetcode.com/problems/clone-graph/
+"""
+
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val = 0, neighbors = None):
+        self.val = val
+        self.neighbors = neighbors if neighbors is not None else []
+"""
+
+
+# Solution 1: DFS (recursive)
+# Time: O(V+E) | Space: O(V), where V is the number of vertices, and E is the number of edges
+class Solution:
+    def __init__(self):
+        self.visited = {}
+
+    def cloneGraph(self, node: 'Node') -> 'Node':
+        if not node:
+            return node
+
+        if node in self.visited:
+            return self.visited[node]
+
+        clone_node = Node(node.val, [])
+
+        self.visited[node] = clone_node
+
+        if node.neighbors:
+            clone_node.neighbors = [self.cloneGraph(n) for n in node.neighbors]
+
+        return clone_node
+
+
+# Solution 1-1: DFS (iterative)
+class Solution:
+    def cloneGraph(self, node: 'Node') -> 'Node':
+        visited = {}
+        if not node:
+            return node
+
+        queue = [node]
+        visited[node.val] = Node(node.val, [])
+
+        while (queue):
+            toClone = queue.pop(0)
+            for nei in toClone.neighbors:
+                if visited.get(nei.val) == None:
+                    visited[nei.val] = Node(nei.val, [])
+                    queue.append(nei)
+                visited[toClone.val].neighbors.append(visited[nei.val])
+        return visited[node.val]
+
+
+# Solution 1-2: DFS (iterative)
+class Solution:
+    def cloneGraph(self, node: 'Node') -> 'Node':
+        if not node:
+            return None
+        G = {}
+
+        def dfs(src: Node) -> None:
+            if src.val in G:
+                return G[src.val]
+            G[src.val] = Node(src.val)
+            for neighbor in src.neighbors:
+                G[src.val].neighbors.append(dfs(neighbor))
+            return G[src.val]
+        return dfs(node)

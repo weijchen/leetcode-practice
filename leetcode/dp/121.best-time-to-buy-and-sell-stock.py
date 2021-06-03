@@ -2,6 +2,7 @@
 121. Best Time to Buy and Sell Stock
 - Easy
 - Array, DP, Greedy
+- Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 """
 
 #
@@ -16,13 +17,12 @@
 # @lc code=start
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        maxProfit, tmpLow = 0, float('inf')
+        tmpMin = prices[0]
+        tmpProfit = 0
+        
         for price in prices:
-            if price < tmpLow:
-                tmpLow = price
-            elif price > tmpLow:
-                profit = price - tmpLow
-                maxProfit = max(profit, maxProfit)
-        return maxProfit
+            tmpMin = min(tmpMin, price)
+            tmpProfit = max(tmpProfit, price - tmpMin)
+        return tmpProfit
 # @lc code=end
 

@@ -1,12 +1,27 @@
 # LeetCode Practice
 * leetcode (L), hackerrank (H), algoexpert (A)
 
+6/3
+1. (429) N-ary Tree Level Order Traversal - Medium
+2. (589) N-ary Tree Preorder Traversal - Easy
+3. (987) Vertical Order Traversal of a Binary Tree - Hard
+4. (1302) Deepest Leaves Sum - Medium
+
+6/2
+1. (133) Clone Graph - Medium
+2. (138) Copy List with Random Pointer - Medium
+3. (200) Number of Islands - Medium
+4. (547) Number of Provinces - Medium
+5. (695) Max Area of Island - Medium
+6. (733) Flood Fill - Easy
+
 6/1
 1. (70) Climbing Stairs - Easy
 2. (746) Min Cost Climbing Stairs - Easy
 3. (1137) N-th Tribonacci Number - Easy
 4. (303) Range Sum Query - Immutable - Easy
 5. (1218) Longest Arithmetic Subsequence of Given Difference - Medium
+6. (53) Maximum Subarray - Easy
 
 5/31
 1. (90) Subsets II - Medium

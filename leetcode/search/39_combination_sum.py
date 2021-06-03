@@ -7,7 +7,7 @@
 
 
 # Approach 1: Backtracking
-# Time: O(N^T/M), where N is the length of array, T is the target value and M is the minimal value in the array | Spacee: O(T/M)
+# Time: O(N^T/M), where N is the length of array, T is the target value and M is the minimal value in the array | Space: O(T/M)
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         ans = set()
@@ -24,7 +24,7 @@ class Solution:
 
 
 # Approach 2: Backtracking + Pruning(*** important for improving backtracking algo.)
-# Time: O(N^T/M), where N is the length of array, T is the target value and M is the minimal value in the array | Spacee: O(T/M)
+# Time: O(N^T/M), where N is the length of array, T is the target value and M is the minimal value in the array | Space: O(T/M)
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         ans = set()

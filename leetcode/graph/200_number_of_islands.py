@@ -6,32 +6,25 @@
 """
 
 
-# Solution 1: DFS
-# Time: O(R * C) | Space: O(R * C), if the grid is filled with 1
+# Solution 1: DFS (recursively)
+# Time: O(R * C), where R is # of row and C is # of col | Space: O(R * C), if the grid is filled with 1
 class Solution:
+    def findIsland(self, grid, row, col):
+        if row < 0 or row >= len(grid) or col < 0 or col >= len(grid[0]) or grid[row][col] == '0': return
+        grid[row][col] = '0'
+        self.findIsland(grid, row-1, col)
+        self.findIsland(grid, row+1, col)
+        self.findIsland(grid, row, col-1)
+        self.findIsland(grid, row, col+1)
+    
     def numIslands(self, grid: List[List[str]]) -> int:
         ans = 0
-        if not grid:
-            return ans
-        row, col = len(grid), len(grid[0])
-
-        def dfs(r, c):
-            grid[r][c] = '2'
-
-            for di, dj in (1, 0), (0, 1), (-1, 0), (0, -1):
-                newR, newC = r + di, c + dj
-
-                if 0 <= newR < row and 0 <= newC < col and grid[newR][newC] == '1':
-                    dfs(newR, newC)
-
-        for r in range(row):
-            for c in range(col):
+        for r in range(len(grid)):
+            for c in range(len(grid[0])):
                 if grid[r][c] == '1':
-                    dfs(r, c)
                     ans += 1
-
+                    self.findIsland(grid, r, c)  
         return ans
-
 
 # Solution 2: Union Find, aka Disjoint Set
 # Time: O(R * C) | Space: O(R * C), if the grid is filled with 1
