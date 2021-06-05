@@ -1,6 +1,19 @@
 # LeetCode Practice
 * leetcode (L), hackerrank (H), algoexpert (A)
 
+6/5
+1. (98) Validate Binary Search Tree - Medium
+2. (530) Minimum Absolute Difference in BST - Easy
+3. (783) Minimum Difference Between BST - Easy
+4. (700) Search in a Binary Search Tree - Easy
+5. (701) Insert Into a Binary Search Tree - Medium
+6. (230) Kth Smallest Element in a BST - Medium
+
+6/4
+1. (704) Binary Search - Easy
+2. (981) Time Based Key-Value Store - Medium
+3. (81) Search in Rotated Sorted Array II - Medium
+
 6/3
 1. (429) N-ary Tree Level Order Traversal - Medium
 2. (589) N-ary Tree Preorder Traversal - Easy

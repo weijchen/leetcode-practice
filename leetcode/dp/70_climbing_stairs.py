@@ -8,7 +8,7 @@
 
 
 # Solution 1: DP
-# Time: O(N) | Space: O(N)n
+# Time: O(N) | Space: O(N)
 # with hashtable
 class Solution:
     def climbStairs(self, n: int) -> int:
