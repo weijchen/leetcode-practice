@@ -80,7 +80,7 @@ class UnionFind:
             self.rank[first] += 1
 
     def find(self, x):
-        # parent is itself
+        # parent is not itself
         if x != self.parent[x]:
             self.parent[x] = self.find(self.parent[x])
         return self.parent[x]

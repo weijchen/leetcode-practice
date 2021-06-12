@@ -1,6 +1,28 @@
 # LeetCode Practice
 * leetcode (L), hackerrank (H), algoexpert (A)
 
+6/12
+1. (841) Keys and Rooms - Medium
+2. (207) Course Schedule - Medium
+
+6/11
+1. (62) Unique Paths - Medium
+2. (63) Unique Path II - Medium
+3. (64) Minimum Path Sum - Medium
+4. (120) Triangle - Medium
+
+6/9
+1. (25) Reverse Nodes in k-Group - Hard
+
+6/8
+1. (455) Assign Cookies - Easy
+2. (561) Array Partition I - Easy
+3. (628) Maximum Product of Three Numbers - Easy
+4. (611) Valid Triangle Number - Medium
+
+6/7
+1. (560) Subarray Sum Equals K - Medium
+
 6/5
 1. (98) Validate Binary Search Tree - Medium
 2. (530) Minimum Absolute Difference in BST - Easy

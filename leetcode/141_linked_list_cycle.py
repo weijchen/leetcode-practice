@@ -1,34 +1,47 @@
 """
 141. Linked List Cycle
 - Easy
-- Linked List, Two Pointers
+- Hash Table, Linked List, Two Pointers
 - Link: https://leetcode.com/problems/linked-list-cycle/
 """
 
 
+# Solution 1: Hash Table
+# Time: O(N) | Space: O(N)
 # Definition for singly-linked list.
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+class Solution:
+    def hasCycle(self, head: ListNode) -> bool:
+        d = {}
 
-# Two Pointers
-# Time: O(n) -> length of cycle
-# Space: O(1)
+        node = head
+        while node:
+            if node in d:
+                return True
+            else:
+                d[node] = node.val
+            node = node.next
+        return False
+
+
+# Solution 2: Two Pointers
+# Time: O(N) -> length of cycle | Space: O(1)
+# (2t - p - 1) % q = (t - p - 1) % q
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         if not head or not head.next:
             return False
 
-        fast, slow = head.next.next, head.next
+        slow, fast = head.next, head.next.next
 
-        while fast and slow:
-            if fast == slow:
+        while slow and fast:
+            if slow == fast:
                 return True
-            else:
-                if not fast.next:
-                    return False
-                fast = fast.next.next
-                slow = slow.next
-
+            if not fast.next:
+                return False
+            slow = slow.next
+            fast = fast.next.next
         return False
