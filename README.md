@@ -1,6 +1,10 @@
 # LeetCode Practice
 * leetcode (L), hackerrank (H), algoexpert (A)
 
+6/14
+1. (110) Balanced Binary Tree - Easy
+2. (572) Subtree of Another Tree - Easy
+
 6/12
 1. (841) Keys and Rooms - Medium
 2. (207) Course Schedule - Medium

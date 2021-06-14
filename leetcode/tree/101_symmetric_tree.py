@@ -15,15 +15,18 @@ class TreeNode:
 
 
 # Approach 1: Traverse + Recursion
-# Time: O(N) | Space: O(logN), # of recursion stacks
+# Time: O(N) | Space: O(N), when the tree is a skewed tree
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
-        return self.helper(root, root)
+        def dfs(a, b):
+            if not a and not b:
+                return True
+            if not a or not b:
+                return False
 
-    def helper(self, p: TreeNode, q: TreeNode) -> bool:
-        if not p and not q:
-            return True
-        if not p or not q:
-            return False
+            if a.val != b.val:
+                return False
 
-        return p.val == q.val and self.helper(p.left, q.right) and self.helper(p.right, q.left)
+            return dfs(a.left, b.right) and dfs(a.right, b.left)
+
+        return dfs(root, root)

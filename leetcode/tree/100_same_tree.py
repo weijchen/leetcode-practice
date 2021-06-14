@@ -14,7 +14,8 @@ class TreeNode:
         self.right = right
 
 
-# Inorder traversal + Position args
+# Solution 1: InOrder traversal + Position args
+# Time: O(N) | Space: O(N)
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         ret1, ret2 = [], []
@@ -29,3 +30,21 @@ class Solution:
         self.helper(p.left, _list, 1)
         _list.append((p.val, pos))
         self.helper(p.right, _list, 0)
+
+
+# Solution 2: DFS (recursive)
+# Time: O(N) | Space: O(1)
+class Solution:
+    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
+        
+        def dfs(a, b):
+            if not a and not b:
+                return True
+            if not a or not b:
+                return False
+            
+            if a.val != b.val:
+                return False
+            return dfs(a.left, b.left) and dfs(a.right, b.right)
+        
+        return dfs(p, q)
