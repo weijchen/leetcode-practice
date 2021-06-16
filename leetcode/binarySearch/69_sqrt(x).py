@@ -6,32 +6,32 @@
 """
 
 
-# Approach 1-1: Brute Force (for loop)
-# Time: O(n) | Space: O(1)
+# Solution 1-1: Brute Force (for loop)
+# Time: O(sqrt(N)) | Space: O(1)
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x == 0:
-            return 0
+            return x
         for i in range(x):
             if i * i > x:
                 return i - 1
         return 1
 
 
-# Approach 1-2: Brute Force (while loop)
+# Solution 1-2: Brute Force (while loop)
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x == 0:
-            return 0
+            return x
         cur = 1
         while cur * cur <= x:
             cur += 1
         return cur-1
 
 
-# Approach 2: Binary Search
+# Solution 2: Binary Search
 # x^(1/2) < x / 2 (by 2x < x^2)
-# Time: O(logn) | Space: O(1)
+# Time: O(logN) | Space: O(1)
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x < 2:

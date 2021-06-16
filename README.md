@@ -1,9 +1,15 @@
 # LeetCode Practice
 * leetcode (L), hackerrank (H), algoexpert (A)
 
+6/16
+1. (153) Find Minimum in Rotated Sorted Array - Medium
+2. (154) Find Minimum in Rotated Sorted Array II - Hard
+3. (852) Peak Index in a Mountain Array - Easy
+
 6/14
 1. (110) Balanced Binary Tree - Easy
 2. (572) Subtree of Another Tree - Easy
+3. (965) Univalued Binary Tree - Easy
 
 6/12
 1. (841) Keys and Rooms - Medium
