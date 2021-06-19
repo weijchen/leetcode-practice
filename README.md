@@ -1,6 +1,10 @@
 # LeetCode Practice
 * leetcode (L), hackerrank (H), algoexpert (A)
 
+6/19
+1. (99) Recover Binary Search Tree - Medium
+2. (501) Find Mode in Binary Search Tree - Easy
+
 6/16
 1. (153) Find Minimum in Rotated Sorted Array - Medium
 2. (154) Find Minimum in Rotated Sorted Array II - Hard
