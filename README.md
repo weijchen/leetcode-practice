@@ -1,76 +1,88 @@
 # LeetCode Practice
 * leetcode (L), hackerrank (H), algoexpert (A)
 
-6/19
-1. (99) Recover Binary Search Tree - Medium
-2. (501) Find Mode in Binary Search Tree - Easy
+7/2
+1. (96) Unique Binary Search Tree - Medium
+2. (426) Convert Binary Search Tree to Sorted Doubly Linked List - Medium
+3. (938) Range Sum of BST - Easy
+4. (1396) Design Underground System - Medium
+5. (588) Design In-Memory File System - Hard
 
-6/16
-1. (153) Find Minimum in Rotated Sorted Array - Medium
-2. (154) Find Minimum in Rotated Sorted Array II - Hard
-3. (852) Peak Index in a Mountain Array - Easy
+7/1
+1. (4) Median of Two Sorted Arrays - Hard
+2. (875) Koko Eating Bananas - Medium
+3. (1011) Capacity To Ship Packages Within D Days - Medium
+4. (1283) Find the Smallest Divisor Given a Threshold - Medium
+5. (278) First Bad Version - Easy
 
-6/14
-1. (110) Balanced Binary Tree - Easy
-2. (572) Subtree of Another Tree - Easy
-3. (965) Univalued Binary Tree - Easy
-
-6/12
-1. (841) Keys and Rooms - Medium
-2. (207) Course Schedule - Medium
-
-6/11
-1. (62) Unique Paths - Medium
-2. (63) Unique Path II - Medium
-3. (64) Minimum Path Sum - Medium
-4. (120) Triangle - Medium
-
-6/9
-1. (25) Reverse Nodes in k-Group - Hard
-
-6/8
-1. (455) Assign Cookies - Easy
-2. (561) Array Partition I - Easy
-3. (628) Maximum Product of Three Numbers - Easy
-4. (611) Valid Triangle Number - Medium
-
-6/7
-1. (560) Subarray Sum Equals K - Medium
-
-6/5
-1. (98) Validate Binary Search Tree - Medium
-2. (530) Minimum Absolute Difference in BST - Easy
-3. (783) Minimum Difference Between BST - Easy
-4. (700) Search in a Binary Search Tree - Easy
-5. (701) Insert Into a Binary Search Tree - Medium
-6. (230) Kth Smallest Element in a BST - Medium
-
-6/4
-1. (704) Binary Search - Easy
-2. (981) Time Based Key-Value Store - Medium
-3. (81) Search in Rotated Sorted Array II - Medium
-
-6/3
-1. (429) N-ary Tree Level Order Traversal - Medium
-2. (589) N-ary Tree Preorder Traversal - Easy
-3. (987) Vertical Order Traversal of a Binary Tree - Hard
-4. (1302) Deepest Leaves Sum - Medium
-
-6/2
-1. (133) Clone Graph - Medium
-2. (138) Copy List with Random Pointer - Medium
-3. (200) Number of Islands - Medium
-4. (547) Number of Provinces - Medium
-5. (695) Max Area of Island - Medium
-6. (733) Flood Fill - Easy
-
-6/1
-1. (70) Climbing Stairs - Easy
-2. (746) Min Cost Climbing Stairs - Easy
-3. (1137) N-th Tribonacci Number - Easy
-4. (303) Range Sum Query - Immutable - Easy
-5. (1218) Longest Arithmetic Subsequence of Given Difference - Medium
-6. (53) Maximum Subarray - Easy
+6/30
+1. (1448) Count Good Nodes in Binary Tree - Medium
+2. (236) Lowest Common Ancestor of a Binary Tree - Medium
+3. (314) Binary Tree Vertical Order Traversal - Medium
+4. (399) Evaluate Division - Medium
+5. (332) Reconstruct Itinerary - Medium
+6. (323) Number of Connected Components in an Undirected Graph - Medium
+7. (496) Next Greater Element I - Easy
+8. (503) Next Greater Element II - Medium
+9. (37) Sudoku Solver - Hard
+10. (51) N-Queens - Hard
+11. (52) N-Queens II - Hard
+12. (79) Word Search - Medium
+13. (92) Reverse Linked List II - Medium
+14. (55) Jump Game - Medium
+15. (45) Jump Game II - Medium
+16. (252) Meeting Rooms - Easy
+17. (253) Meeting Rooms II - Medium
+18. (347) Top K Frequent Elements - Medium
+19. (811) Subdomain Visit Count - Easy
+20. (146) LRU Cache - Medium
+21. (18) 4Sum - Medium
+22. (36) Valid Sudoku - Medium
+23. (99) Recover Binary Search Tree - Medium
+24. (501) Find Mode in Binary Search Tree - Easy
+25. (153) Find Minimum in Rotated Sorted Array - Medium
+26. (154) Find Minimum in Rotated Sorted Array II - Hard
+27. (852) Peak Index in a Mountain Array - Easy
+28. (110) Balanced Binary Tree - Easy
+29. (572) Subtree of Another Tree - Easy
+30. (965) Univalued Binary Tree - Easy
+31. (841) Keys and Rooms - Medium
+32. (207) Course Schedule - Medium
+33. (62) Unique Paths - Medium
+34. (63) Unique Path II - Medium
+35. (64) Minimum Path Sum - Medium
+36. (120) Triangle - Medium
+37. (25) Reverse Nodes in k-Group - Hard
+38. (455) Assign Cookies - Easy
+39. (561) Array Partition I - Easy
+40. (628) Maximum Product of Three Numbers - Easy
+41. (611) Valid Triangle Number - Medium
+42. (560) Subarray Sum Equals K - Medium
+43. (98) Validate Binary Search Tree - Medium
+44. (530) Minimum Absolute Difference in BST - Easy
+45. (783) Minimum Difference Between BST - Easy
+46. (700) Search in a Binary Search Tree - Easy
+47. (701) Insert Into a Binary Search Tree - Medium
+48. (230) Kth Smallest Element in a BST - Medium
+49. (704) Binary Search - Easy
+50. (981) Time Based Key-Value Store - Medium
+51. (81) Search in Rotated Sorted Array II - Medium
+52. (429) N-ary Tree Level Order Traversal - Medium
+53. (589) N-ary Tree Preorder Traversal - Easy
+54. (987) Vertical Order Traversal of a Binary Tree - Hard
+55. (1302) Deepest Leaves Sum - Medium
+56. (133) Clone Graph - Medium
+57. (138) Copy List with Random Pointer - Medium
+58. (200) Number of Islands - Medium
+59. (547) Number of Provinces - Medium
+60. (695) Max Area of Island - Medium
+61. (733) Flood Fill - Easy
+62. (70) Climbing Stairs - Easy
+63. (746) Min Cost Climbing Stairs - Easy
+64. (1137) N-th Tribonacci Number - Easy
+65. (303) Range Sum Query - Immutable - Easy
+66. (1218) Longest Arithmetic Subsequence of Given Difference - Medium
+67. (53) Maximum Subarray - Easy
 
 5/31
 1. (90) Subsets II - Medium

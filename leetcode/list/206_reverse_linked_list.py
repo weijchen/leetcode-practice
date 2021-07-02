@@ -12,17 +12,16 @@ class ListNode:
         self.val = val
         self.next = next
 
-# Time: O(n)
-# Space O(1)
+
+# Solution 1: Linked List
+# Time: O(n) | Space O(1)
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
-        last = None
+        prev = None
 
         while head:
-            # save tmp node
-            tmp = head.next
-            head.next = last
-            last = head
-            head = tmp
+            tmpNode = head.next
+            head.next = prev
+            head, prev = tmpNode, head
 
-        return last
+        return prev
