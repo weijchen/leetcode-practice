@@ -8,18 +8,13 @@
 
 # Solution 1: Hash Table
 # Time: O(n) | Space: O(1) -> the table's size stays constant no matter how large n is (hash table keys can be max 26 for 26 lowercase characters)
+# 因為字母數量固定為 26，所以 space complexity stays constant
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        d1 = Counter(s)
-        d2 = Counter(t)
+        s_count = collections.Counter(s)
+        t_count = collections.Counter(t)
 
-        if len(d1.keys()) != len(d2.keys()):
+        if len(s_count.keys()) != len(t_count.keys()):
             return False
 
-        for k, v in d2.items():
-            if k not in d1.keys():
-                return False
-            else:
-                if v != d1[k]:
-                    return False
-        return True
+        return s_count == t_count

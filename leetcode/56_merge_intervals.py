@@ -1,39 +1,13 @@
 """
-48. Rotate Image
+56. Merge Intervals
 - Medium
-- Array
-- Link: https://leetcode.com/problems/rotate-image/
+- Array, Sorting
+- Link: https://leetcode.com/problems/merge-intervals/
 """
 
 
-# Sort
-# Time: O(NlogN), for sorting | Space: O(logN), for sorting
-class Solution:
-    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        ans = []
-        intervals.sort()
-
-        _prev = intervals[0]
-        if len(intervals) == 1:
-            return [_prev]
-
-        for e in intervals[1:]:
-            _next = e
-
-            if (_next[0] < _prev[0] and _next[1] < _prev[0]) or (_next[0] > _prev[1] and _next[1] > _prev[1]):
-                ans.append(_prev)
-                _prev = _next
-            else:
-                _prev = [min(_prev[0], _next[0]), max(_prev[1], _next[1])]
-
-        if _prev != _next:
-            ans.append(_prev)
-        else:
-            ans.append(_next)
-        return ans
-
-
-# Prettier code
+# Solution 1: Sorting
+# Time: O(NlogN) | Space: O(N)
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
 

@@ -41,21 +41,24 @@ class Solution:
 # Solution 1-1: DFS (iterative)
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
-        visited = {}
+        seen = {}
         if not node:
-            return node
-
+            return None
+        
         queue = [node]
-        visited[node.val] = Node(node.val, [])
-
-        while (queue):
+        seen[node.val] = Node(node.val, [])
+        
+        while queue:
             toClone = queue.pop(0)
+            
             for nei in toClone.neighbors:
-                if visited.get(nei.val) == None:
-                    visited[nei.val] = Node(nei.val, [])
+                if nei.val not in seen:
                     queue.append(nei)
-                visited[toClone.val].neighbors.append(visited[nei.val])
-        return visited[node.val]
+                    seen[nei.val] = Node(nei.val, [])
+            
+                seen[toClone.val].neighbors.append(seen[nei.val])
+        
+        return seen[node.val]
 
 
 # Solution 1-2: DFS (iterative)

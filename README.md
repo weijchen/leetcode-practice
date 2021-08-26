@@ -1,12 +1,46 @@
 # LeetCode Practice
 * leetcode (L), hackerrank (H), algoexpert (A)
 
+8/11
+1. (735) Asteroid Collision - Medium
+
+8/8
+1. (128) Longest Consecutive Sequence - Medium
+
+7/19
+1. (322) Coin Change - Medium
+
+7/18
+1. (23) Merge K Sorted Lists - Hard
+
+7/17
+1. (42) Trapping Rain Water - Hard
+2. (973) K Closest Points to Origin - Medium
+3. (937) Reorder Data in Log Files - Easy
+
+7/15
+1. (1041) Robot Bounded in Circle - Medium
+2. (370) Range Addition - Medium
+
+7/14
+1. (1249) Minimum Remove to Make Valid Parentheses - Medium
+2. (494) Target Sum - Medium
+
+7/4
+1. (1465) Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts - Medium
+
+7/3
+1. (621) Task Scheduler - Medium
+2. (134) Gas Station - Medium
+3. (366) Find Leaves of Binary Tree - Medium
+
 7/2
 1. (96) Unique Binary Search Tree - Medium
 2. (426) Convert Binary Search Tree to Sorted Doubly Linked List - Medium
 3. (938) Range Sum of BST - Easy
 4. (1396) Design Underground System - Medium
 5. (588) Design In-Memory File System - Hard
+6. (658) Find K Closest Elements - Medium
 
 7/1
 1. (4) Median of Two Sorted Arrays - Hard

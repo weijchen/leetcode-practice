@@ -42,21 +42,22 @@ class Solution:
 # Solution 2: Two Pointers (Iterative)
 # Time: O(max(N, M)) | Space: O(1), where N and M is the length of l1 and l2
 class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
-        dummy = tail = ListNode(-1)
+    def mergeTwoLists(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        head = ListNode()
+        prehead = head
 
         while l1 and l2:
-            if l1.val <= l2.val:
-                tail.next = l1
-                l1 = l1.next
-            else:
-                tail.next = l2
+            if l1.val >= l2.val:
+                head.next = l2
                 l2 = l2.next
-            tail = tail.next
+            else:
+                head.next = l1
+                l1 = l1.next
+            head = head.next
 
-        tail.next = l1 or l2
+        head.next = l1 or l2
 
-        return dummy.next
+        return prehead.next
 
 
 # Solution 3: Two Pointers (Recursive)

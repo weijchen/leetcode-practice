@@ -1,0 +1,30 @@
+"""
+6. ZigZag Conversion
+- Medium
+- String
+- Link: https://leetcode.com/problems/zigzag-conversion/
+"""
+
+
+# Solution 1: String (By Row)
+# Time: O(N) | Space: O(N)
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+        if numRows == 1:
+            return s
+        
+        levels = [[] for num in range(numRows)]
+        
+        currLevel = 0
+        dev = 1
+        
+        for char in s:
+            levels[currLevel].append(char)
+            
+            currLevel += dev
+            
+            if currLevel == 0 or currLevel == (numRows - 1):
+                dev *= -1
+        
+        
+        return "".join(["".join(l) for l in levels])

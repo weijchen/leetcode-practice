@@ -8,6 +8,7 @@
 
 # Solution 1: Greedy
 # Time: O(N^2) | Space: O(1)
+# 需要先做 reverse -> 要利用 "最大兩數以及最小數字" 才能夠 include 到中間的數字
 class Solution:
     def triangleNumber(self, nums: List[int]) -> int:
         ans = 0
